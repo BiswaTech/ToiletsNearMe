@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3D4ABA</color>
+    <color name="colorPrimaryDark">#212C65</color>
+    <color name="colorAccent">#EC5F5F</color>
+    <color name="colorOthers">#0F3CCE</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="tab1_color">#3D4ABA</color>
+    <color name="tab1_color_light">#E5E5FC</color>
+    <color name="tab2_color">#F86C6C</color>
+    <color name="tab2_color_light">#FDE5E5</color>
+    <color name="tab3_color">#4FAD2D</color>
+    <color name="tab3_color_light">#E7FFDA</color>
+    <color name="tab4_color">#1CA0E0</color>
+    <color name="tab4_color_light">#E4EEFC</color>
+    <color name="black">#000000</color>
+    <color name="white">#fff</color>
+    <color name="text_colour">#E4EEFC</color>
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_transp">
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="449dp"
+        android:fontFamily="@font/beta"
+        android:text="Conf. Pass :"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="443dp"
+        android:inputType="textPassword"
+        android:layout_toEndOf="@+id/textView20"
+        android:ems="10"
+        android:hint="Confirm Password" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="363dp"
+        android:inputType="textPassword"
+        android:layout_toEndOf="@+id/textView20"
+        android:ems="10"
+        android:hint="Enter New Password" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="371dp"
+        android:fontFamily="@font/beta"
+        android:text="New Pass :"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="111dp"
+        android:fontFamily="@font/beta"
+        android:text="Email :"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="176dp"
+        android:fontFamily="@font/beta"
+        android:text="Name:"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="370dp"
+        android:fontFamily="@font/beta"
+        android:text="OTP :"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="101dp"
+        android:layout_toEndOf="@+id/textView20"
+        android:ems="10"
+        android:hint="Enter Email Id"
+        android:inputType="textWebEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="362dp"
+        android:layout_toEndOf="@+id/textView20"
+        android:ems="10"
+        android:hint="Enter OTP"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="166dp"
+        android:layout_toEndOf="@+id/textView20"
+        android:editable="false"
+        android:ems="10"
+        android:hint="Searched Name Here"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="94dp"
+        android:background="@drawable/button_des2"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="292dp"
+        android:background="@drawable/button_des2"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="364dp"
+        android:background="@drawable/button_des2"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="93dp"
+        android:background="@drawable/button_des2"
+        android:text="Send Otp" />
+</RelativeLayout>
+</RelativeLayout>

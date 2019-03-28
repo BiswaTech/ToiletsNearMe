@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "735465815000",
+    "firebase_url": "https://toiletsnearme.firebaseio.com",
+    "project_id": "toiletsnearme",
+    "storage_bucket": "toiletsnearme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735465815000:android:67a20693dfaa91e8",
+        "android_client_info": {
+          "package_name": "com.biswatechs.biswadeepampal.toiletsnearme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735465815000-tob9m6mrrrq8t62pl6k89ssit2o6qfb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.biswatechs.biswadeepampal.toiletsnearme",
+            "certificate_hash": "5021dba450f181167c6523a27cc80e4204ce5a0c"
+          }
+        },
+        {
+          "client_id": "735465815000-58mso8jo3qq30gccv08fpeajvfqnogks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIC1DjKgoJfvEuJzLSWnHvB8uW9UEXrhg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735465815000-58mso8jo3qq30gccv08fpeajvfqnogks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/tab1_color_light"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@xml/shadow_border"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/homeviewflipper1"
+            android:layout_width="match_parent"
+            android:layout_height="220sp"
+            android:elevation="12dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home_flip_1" />
+
+        <ImageView
+            android:id="@+id/homeviewflipper2"
+            android:layout_width="match_parent"
+            android:layout_height="220sp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home_flip_2" />
+
+        <ImageView
+            android:id="@+id/homeviewflipper3"
+            android:layout_width="match_parent"
+            android:layout_height="220sp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home_flip_3" />
+
+        <ImageView
+            android:id="@+id/homeviewflipper4"
+            android:layout_width="match_parent"
+            android:layout_height="220sp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home_flip_4" />
+
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/featuredtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewflipper"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:fontFamily="@font/beta"
+        android:padding="5dp"
+        android:text="@string/featured_locations"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/featuredtext"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scrollbars="vertical"></android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

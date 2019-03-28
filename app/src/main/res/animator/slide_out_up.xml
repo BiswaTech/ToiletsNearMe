@@ -1,0 +1,19 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+    android:interpolator="@android:interpolator/decelerate_quad"
+    android:valueFrom="1"
+    android:valueTo="0"
+    android:propertyName="alpha"
+    android:duration="@android:integer/config_mediumAnimTime" />
+    <!--<objectAnimator-->
+        <!--android:interpolator="@android:interpolator/decelerate_quad"-->
+        <!--android:valueFrom="1"-->
+        <!--android:valueTo="0.9"-->
+        <!--android:propertyName="scaleY"-->
+        <!--android:duration="400"/>-->
+    <!--<objectAnimator-->
+        <!--android:valueFrom="1"-->
+        <!--android:valueTo="0.9"-->
+        <!--android:propertyName="scaleX"-->
+        <!--android:duration="400"/>-->
+</set>

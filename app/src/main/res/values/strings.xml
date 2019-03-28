@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Toilets Near Me</string>
+    <string-array name="main_menu_items">
+        <item>Show Listings</item>
+        <item>Edit Listings</item>
+        <item>History</item>
+        <item>Reports</item>
+        <item>Add Listing</item>
+        <item>Edit Profile</item>
+    </string-array>
+    <string-array name="main_menu_details">
+        <item>Shows your toilet listings</item>
+        <item>Change your listings</item>
+        <item>Your past clients</item>
+        <item>Get a report</item>
+        <item>Add another toilet</item>
+        <item>Edit your profile details</item>
+    </string-array>
+    <string-array name="client_menu_items">
+        <item>Search</item>
+        <item>Nearby Toilets</item>
+        <item>History</item>
+        <item>Reports</item>
+        <item>Edit Profile</item>
+        <item>Feedback</item>
+    </string-array>
+    <string-array name="client_menu_item_details">
+        <item>Search a toilet</item>
+        <item>Search a toilet nearby for use</item>
+        <item>Your past uses in this app</item>
+        <item>Usage of your service in the past</item>
+        <item>Edit Profile Details</item>
+        <item>Submit Feedback</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main_root">Welcome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Arindam Pal</string>
+    <string name="nav_header_subtitle">arindam@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="gender_specification">Gender Specification:</string>
+    <string name="contact_number">Contact Number:</string>
+    <string name="available_time">Available Time:</string>
+
+    <string-array name="name_listing">
+        <item>Mankundu</item>
+        <item>Chandannagar</item>
+        <item>Mankundu 2</item>
+        <item>Mankundu 3</item>
+        <item>Beside Ruby Hospital</item>
+        <item>Chandannagar Strand</item>
+    </string-array>
+    <string-array name="gender_listing">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Both</item>
+        <item>Both</item>
+        <item>Both</item>
+    </string-array>
+    <string-array name="number_listing">
+        <item>9432020565</item>
+        <item>9876543210</item>
+        <item>9988776655</item>
+        <item>9008776522</item>
+        <item>7688334599</item>
+        <item>8873343212</item>
+    </string-array>
+    <string-array name="from_listing">
+        <item>12</item>
+        <item>13</item>
+        <item>9</item>
+        <item>7</item>
+        <item>14</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="to_listing">
+        <item>16</item>
+        <item>17</item>
+        <item>21</item>
+        <item>12</item>
+        <item>20</item>
+        <item>17</item>
+    </string-array>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_user">User</string>
+    <string name="title_provider">Provider</string>
+    <string name="account">Account</string>
+    <string name="title_activity_home2">HomeActivity2</string>
+    <string name="featured_locations">Our Featured Locations</string>
+
+    <string-array name="recycler_items">
+        <item>Central Kolkata</item>
+        <item>Hooghly</item>
+        <item>Howrah</item>
+        <item>Rajarhat</item>
+        <item>Rishra</item>
+        <item>Liluah</item>
+        <item>Serampore</item>
+        <item>Bandel</item>
+        <item>Chandannagar</item>
+        <item>Barackpore</item>
+
+
+    </string-array>
+
+    <string-array name="account_items">
+        <item>Edit Details</item>
+        <item>Support</item>
+        <item>Privacy Policy</item>
+        <item>About Us</item>
+        <item>Report a Problem</item>
+        <item>Log Out</item>
+    </string-array>
+</resources>
